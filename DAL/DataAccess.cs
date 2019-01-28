@@ -28,6 +28,7 @@ namespace DAL
             ad.Fill(dt);
         }
 
+
         public void DeleteData(string _name)
         {
             SqlDataAdapter ad = new SqlDataAdapter("delete from Student where sname='" + _name + "'", con);
