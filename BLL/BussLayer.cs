@@ -13,10 +13,12 @@ namespace BLL
     {
         private IDataAccess _objDAL;
 
+
         public ClsBussLayer(IDataAccess objDAL)
         {
             _objDAL = objDAL;
         }
+
 
         public void InsertData(string _name, string _gender, string _dob)
         {
