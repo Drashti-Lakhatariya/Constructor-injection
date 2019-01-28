@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Three-Tier-IExample", "Three-Tier-IExample\Three-Tier-IExample.csproj", "{996C6E14-9E3E-45A5-8F22-693B459105BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{37E31931-C0AC-4B7E-8CD4-8135F66A8C09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{773A3300-CBC2-466E-93FB-585772FDFCF6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{996C6E14-9E3E-45A5-8F22-693B459105BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{996C6E14-9E3E-45A5-8F22-693B459105BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{996C6E14-9E3E-45A5-8F22-693B459105BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{996C6E14-9E3E-45A5-8F22-693B459105BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37E31931-C0AC-4B7E-8CD4-8135F66A8C09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37E31931-C0AC-4B7E-8CD4-8135F66A8C09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37E31931-C0AC-4B7E-8CD4-8135F66A8C09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37E31931-C0AC-4B7E-8CD4-8135F66A8C09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{773A3300-CBC2-466E-93FB-585772FDFCF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{773A3300-CBC2-466E-93FB-585772FDFCF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{773A3300-CBC2-466E-93FB-585772FDFCF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{773A3300-CBC2-466E-93FB-585772FDFCF6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0DA6BCDE-1C2D-48CF-996E-50DEF03743A6}
+	EndGlobalSection
+EndGlobal
